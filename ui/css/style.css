@@ -1,0 +1,139 @@
+	html,body{
+
+
+		padding: 0px;
+		margin:0px;
+
+	        }
+
+
+		body{
+		background-attachment:fixed;
+		background-color: #007FC0;
+	    }
+	 .container{
+	  	width: 990px;
+		margin: 0 auto                                       ;
+		background-color: white;
+
+		}
+	.bordered{
+		
+	          }
+
+	footer, header{
+	      background-color: #7BCBF3;
+	      border:1px solid black;
+	       box-shadow: 0 5px 5px 0 gray,0 0 5px 0 gray;
+
+	  	          }
+	footer{
+     text-align: center;
+	  		padding: 10px;
+	  		border-radius: 5px;
+	  		 box-shadow: 0 0px 0px 0 gray,0 0 0px 0 gray;
+	      }
+	#main{
+		min-height:420px;
+		border-radius: 5px;
+		color:#202020;
+		margin:10px 10px;
+		padding:5px;
+		border-right: 1px solid green;
+		border-top  : 1px solid green;
+	     }
+	.login-form{
+		width:400px;
+		position: static;
+		display: inline-block;
+	           }
+	.login-form label{
+	     width:120px;
+		
+		display: inline-block;
+		padding-bottom: 10px;
+	                   }
+	.login-form input[type=text],
+	input[type=password]{
+
+		width: 150px;
+	    border: 1px solid black;
+	                   }
+	.login-form input[type=submit],
+	 input[type=reset]{
+	  background-color: #007FC0;
+	  color:#fff;
+	  border-radius:10px;
+	  padding:3px;
+	  margin-top: 5px;
+	  width: 75px;
+		
+	   }
+	.login-form input[type=reset]{
+		background-color:orange;
+	     }
+	#result{
+	margin: 20PX;
+	margin-left: 20px; 
+	padding:5px;
+	width:480px;
+	display: inline-block;
+	vertical-align: top;
+
+	   }
+	   	#resultadmin{
+	position: absolute;
+	margin: 20PX;
+	left: 12%;
+	top:60%; 
+	padding:5px;
+	width:398px;
+	display: inline-block;
+	vertical-align: top;
+
+	   }
+	header nav{
+
+
+		float: right;
+	     }
+	header nav li{
+		display: inline;
+		font-size: 20px;
+		padding-right: 10px;
+
+
+		
+	    }
+
+	   a{
+	   color: blue;
+
+	   }
+	.boxed{
+	 box-shadow: 0 1px 1px 0 rgba(0,0,0,0.24),0 0 1px 0 rgba(0,0,0,0.14);
+	 transition: box-shadow 1s;
+	    }
+	.boxed:hover{
+	   box-shadow: 0 8px 8px 0 gray,0 0 8px 0 gray;
+
+	    }
+
+
+	#error_Msg{
+		color:red;
+		}
+		#logoutSection{
+
+
+	 	display: none;
+	 }
+	button{
+	  background-color: #007FC0;
+	  color:#fff;
+	  border-radius:10px;
+	  padding:3px;
+	  margin-top: 5px;
+	  width: 75px;
+		
+	}
